@@ -7,8 +7,8 @@ const Projects = () => {
     return (
         <div className='projects'>
             <div className='list'>
-                {projectInfo.map((project) => {
-                    return <ProjectItems name={project.name} image={project.image}/>
+                {projectInfo.map((project, idx) => {
+                    return <ProjectItems id={idx} name={project.name} image={project.image}/>
                 })}
             </div>
         </div>
