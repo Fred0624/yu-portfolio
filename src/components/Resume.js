@@ -4,7 +4,7 @@ import YuResume from '../resume/YuResume.pdf'
 
 const Resume = () => {
     return (
-        <div className='resume'>
+        <div>
             <Document file={YuResume}>
             <Page pageNumber={1} />
             <Page pageNumber={2} />
