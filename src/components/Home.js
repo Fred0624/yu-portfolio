@@ -26,7 +26,7 @@ const Home = () => {
                         </span>
                     </li>
                     <li className='skillItem'>
-                        <h2>Language</h2>
+                        <h2>Languages</h2>
                         <span>
                             JavaScript, Python
                         </span>
