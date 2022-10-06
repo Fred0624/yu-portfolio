@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import { projectInfo } from './ProjectInfo'
-import GithubIcon from '@material-ui/icons/GitHub'
+import Github from '@material-ui/icons/GitHub'
 import '../styles/ProjectDetail.css'
 
 const ProjectDetail = () => {
@@ -12,7 +12,7 @@ const ProjectDetail = () => {
             <h1>{project.name}</h1>
             <img src={project.image} alt='project pic'/>
             <p>Skills: {project.skill}</p>
-            <GithubIcon />
+            <Github />
         </div>
     );
 };
