@@ -1,5 +1,5 @@
-import React from 'react';
-import ProjectItems from './ProjectItems';
+import React from 'react'
+import ProjectItems from './ProjectItems'
 import { projectInfo } from './ProjectInfo'
 import '../styles/Projects.css'
 
