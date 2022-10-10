@@ -50,6 +50,7 @@
 .skills .skillList {
     list-style: none;
     width: 60%;
+    padding: 0%;
 }
 
 .skillList span {
