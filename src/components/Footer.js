@@ -1,9 +1,9 @@
 import React from 'react'
-import Github from "@material-ui/icons/GitHub"
-import LinkedInIcon from "@material-ui/icons/LinkedIn"
-import EmailIcon from "@material-ui/icons/Email"
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import EmailIcon from '@mui/icons-material/Email';
 import '../styles/Footer.css'
-import Link from '@material-ui/core/Link'
+import Link from '@mui/material/Link';
 
 const Footer = () => {
     return (
@@ -13,7 +13,7 @@ const Footer = () => {
                 <LinkedInIcon />
                 </Link>
                 <Link href='https://github.com/Fred0624'>
-                <Github />
+                <GitHubIcon />
                 </Link>
                 <EmailIcon />
             </div>

@@ -1,8 +1,8 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import { projectInfo } from './ProjectInfo'
-import Github from '@material-ui/icons/GitHub'
-import Link from '@material-ui/core/Link'
+import GitHubIcon from '@mui/icons-material/GitHub';
+import Link from '@mui/material/Link';
 import '../styles/ProjectDetail.css'
 
 const ProjectDetail = () => {
@@ -14,7 +14,7 @@ const ProjectDetail = () => {
             <img src={project.image} alt='project pic'/>
             <p>Skills: {project.skill}</p>
             <Link href={project.link}>
-            <Github />
+            <GitHubIcon />
             </Link>
         </div>
     );
