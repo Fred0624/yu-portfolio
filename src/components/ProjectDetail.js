@@ -11,7 +11,9 @@ const ProjectDetail = () => {
     return (
         <div className='project'>
             <h1>{project.name}</h1>
+            <a href={project.live}>
             <img src={project.image} alt='project pic'/>
+            </a>
             <p>Skills: {project.skill}</p>
             <Link href={project.link}>
             <GitHubIcon />
