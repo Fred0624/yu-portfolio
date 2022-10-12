@@ -14,6 +14,7 @@ const ProjectDetail = () => {
             <a href={project.live}>
             <img src={project.image} alt='project pic'/>
             </a>
+            <p className='linkToLive'>click the pic to go to the live site</p>
             <p>Skills: {project.skill}</p>
             <Link href={project.link}>
             <GitHubIcon />
